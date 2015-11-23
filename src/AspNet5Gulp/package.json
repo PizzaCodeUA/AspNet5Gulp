@@ -1,0 +1,32 @@
+{
+  "name": "ko_browserify",
+  "version": "0.0.0",
+  "devDependencies": {
+    "babel-cli": "^6.1.4",
+    "babel-core": "^6.1.4",
+    "babel-preset-es2015": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^4.2.1",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "stringify": "^2.2.0",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "description": "ko_browserify is an app to start develop knockout applications",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "crossroads": "^0.12.2",
+    "express": "^4.13.3",
+    "hasher": "^1.2.0",
+    "jquery": "^2.1.4",
+    "knockout": "^3.3.0",
+    "serve-static": "^1.10.0"
+  },
+  "scripts": {
+    "start": "gulp default",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruslan Lesnikovskiy",
+  "license": "ISC"
+}
