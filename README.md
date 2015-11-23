@@ -9,3 +9,7 @@ To setup the application
 * ```git pull origin master```
 
 Open project solution in Visual Studio 2015 and wait until the magic will happen (npm and nuget folders should be restored).
+
+* Open task runner explorer
+* run build gulp command to build scripts
+* run watch gulp command to watch changes in JS or HTML template files.

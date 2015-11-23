@@ -1,0 +1,25 @@
+<h1>User List</h1>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Phone</th>
+		</tr>
+	</thead>
+	<tbody data-bind="foreach: userList">
+		<tr>
+			<td data-bind="text: id"></td>
+			<td data-bind="text: name"></td>
+			<td>
+				<span class="glyphicon glyphicon-envelope"></span>
+				<a href="#" data-bind="text:email, attr: {href: 'mailto:' + email}"></a>
+			</td>
+			<td>
+				<span class="glyphicon glyphicon-phone"></span>
+				<span data-bind="text: phone"></span>
+			</td>
+		</tr>
+	</tbody>
+</table>
